@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2304' height='2304' preserveAspectRatio='none' viewBox='0 0 2304 2304'%3e%3cg mask='url(%26quot%3b%23SvgjsMask4521%26quot%3b)' fill='none'%3e%3crect width='2304' height='2304' x='0' y='0' fill='url(%23SvgjsLinearGradient4522)'%3e%3c/rect%3e%3cpath d='M288 2304L2592 0L4506 0L2202 2304z' fill='url(%23SvgjsLinearGradient4523)'%3e%3c/path%3e%3cpath d='M2278 2304L-26 0L-1478 0L826 2304z' fill='url(%23SvgjsLinearGradient4524)'%3e%3c/path%3e%3cpath d='M1038.9456600069125 2304L2304 1038.9456600069125L2304 2304z' fill='url(%23SvgjsLinearGradient4523)'%3e%3c/path%3e%3cpath d='M0 2304L1265.0543399930875 2304L 0 1038.9456600069125z' fill='url(%23SvgjsLinearGradient4524)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask4521'%3e%3crect width='2304' height='2304' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4522'%3e%3cstop stop-color='rgba(103%2c 94%2c 94%2c 1)' offset='0.82'%3e%3c/stop%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0.82'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient4523'%3e%3cstop stop-color='rgba(6%2c 73%2c 215%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(6%2c 73%2c 215%2c 1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient4524'%3e%3cstop stop-color='rgba(6%2c 73%2c 215%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(6%2c 73%2c 215%2c 1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/592/25/112/abstract-texture-design-wallpaper-thumb.jpg"); */
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -5;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 1;
+}
+
+hr.style18 {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
+}
+hr.style18:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--red);
+    transform-origin: 0%;
+}
