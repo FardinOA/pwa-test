@@ -7,6 +7,7 @@ import FeaturedPost from "../sections/FeaturedPost";
 import { Loader } from "../components";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { Adsense } from "@ctrl/react-adsense";
 export default function Home({ posts }) {
     const router = useRouter();
     useEffect(() => {
@@ -43,6 +44,14 @@ export default function Home({ posts }) {
                 <div className="col-span-1 lg:col-span-4  ">
                     <div className="relative lg:sticky  top-8">
                         <PostWidget />
+                        <Adsense
+                            client="ca-pub-7640562161899788"
+                            slot="7259870550"
+                            style={{ display: "block" }}
+                            className={``}
+                            layout="in-article"
+                            format="fluid"
+                        />
                         <Categories />
                         {/* <Loader /> */}
                     </div>
